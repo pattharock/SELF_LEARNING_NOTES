@@ -1,6 +1,6 @@
 # Dogstagram
 
-Lets tae this opportunity to build somehting useful from the knowledge we have gained. Coding is a creative process hence this document will only guide you with the project setup and steps based on the requirements of the application. However, a sample implementation of this can be found under  `Dogstagram/sample-app`.
+Lets tae this opportunity to build somehting useful from the knowledge we have gained. Coding is a creative process hence this document will only guide you with the project setup and steps based on the requirements of the application. However, a sample implementation of this can be found under  `Dogstagram/dogstagram`.
 
 Let's get started
 
