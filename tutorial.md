@@ -7,4 +7,4 @@ Follow the notes in the order
 2. `Core Components/main.md` - A deep dive into Core Comoponents in React Native.
 3.  `Styling/main.md` - A guide to styling in React Native.
 4.  `Navigation/main.md` - Information regarding implenting basic mobile application naivgational pradigms with ReactNative.
-   
+5.  `Dogstagram` - Phew! that was a lot of information, let's put it to use by building somethng useful. An instagram for dogs :)
