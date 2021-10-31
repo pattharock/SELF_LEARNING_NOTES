@@ -4,11 +4,10 @@ import { View, Text, TextInput } from "react-native";
 export default function CustomTextInput({label, placeholder, value, callback, password, passwordsMismatch}) {
   return (
     <View
-      stlye ={
+      style ={
         {
           flex: 1, 
           justifyContent: 'start', 
-          backgroundColor: '#ecf0f1' 
         }
       }
     >
