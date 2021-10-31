@@ -2,6 +2,8 @@
 
 The following set of materials has been prepared in order for you to get a brief introduction to development with React Native.
 
+The github repository for this tutorial can be found (here)[https://github.com/pattharock/SELF_LEARNING_NOTES]
+
 Follow the notes in the order
 1. `Introduction/main.md` - Intro to React Native & Expo. Also contains all the set up related details.
 2. `Core Components/main.md` - A deep dive into Core Components in React Native.
