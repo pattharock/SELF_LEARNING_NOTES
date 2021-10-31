@@ -1,15 +1,15 @@
 # Styling in React Native
 
-Visual design is more than simpty using nice colors and grid layouts. A good design can draw the attention of the user to the important information on the page, and form a key element of complex user interactions. 
+Visual design is more than simply using nice colors and grid layouts. A good design can draw the attention of the user to the important information on the page, and form a key element of complex user interactions. 
 
 
-One main difference between Web development and React Native in particular, is that styling on websites is achieved through the use of CSS. Sadly, CSS is not be used, while developing on React Naitve with Expo. 
+One main difference between Web development and React Native in particular, is that styling on websites is achieved through the use of CSS. Sadly, CSS is not be used, while developing on React Native with Expo. 
 
 React Native and expo uses a separate JavaScript thread in order to use React code and run that in a Native Environment. As a result, the styling of components is defined in JavaScript too. 
 
 The `style` property we have used so far, is akin to writing `inline styles` in CSS. 
 
-Let us take a deeper dive into styling fo componets in React Native. 
+Let us take a deeper dive into styling fo components in React Native. 
 
 
 ## StyleSheets
@@ -44,7 +44,7 @@ With the help of the `StyleSheet API`, we can use the functionality of `.create(
 
 The `style` property is more powerful than it seems. Till now, we have only been performing `static styling` i.e. there is no way for styles to change based on user interaction. 
 
-Luckily for us, the `styles` property can accept an array of inline style objects or styleshet references which can help us achieve dynamic styling. This can be though of as analogous to applying multiple CSS classes to an HTML element i.e. `<div class="box red">`
+Luckily for us, the `styles` property can accept an array of inline style objects or stylesheet references which can help us achieve dynamic styling. This can be though of as analogous to applying multiple CSS classes to an HTML element i.e. `<div class="box red">`
 
 Consider the example below. We want to change the background color to purple when `isActive` prop is set to `true`.
 
@@ -68,19 +68,19 @@ Consider the example below. We want to change the background color to purple whe
 
 ## Units of Measurement
 
-While the use of units like pixels or `px` is quite common in web developemnt, this is not the case while using React Naitive with Expo.
+While the use of units like pixels or `px` is quite common in web development, this is not the case while using React Native with Expo.
 
-A different unit called `Density Independent Pixels` or  `dp` is used since it also taked the precision of screen into account. This is important since screens with lower precision (measures in  `pixels per inch`) may make the content in each pixel display larger than it should, if specifying measurements in `pixels`. This may be thought of as using a relative scale of measurement, as opposed to an absolute scale of precision. 
+A different unit called `Density Independent Pixels` or  `dp` is used since it also takes the precision of screen into account. This is important since screens with lower precision (measures in  `pixels per inch`) may make the content in each pixel display larger than it should, if specifying measurements in `pixels`. This may be thought of as using a relative scale of measurement, as opposed to an absolute scale of precision. 
 
-Another commonly used measurement is `percentages`. This is more frequently used with stlyling properties like  `widhth` and `height`.
+Another commonly used measurement is `percentages`. This is more frequently used with styling properties like  `width` and `height`.
 
 ## FlexBox
 
-Responsive styling is a very important part of mobile application development since screen sizes may change based on the orientation of the device. As a result `flex` or `flexbox` serves as a very important tools for making components responsive. Good news!! All components in React Native are flex-boxes. We do not have to explicilty set `display: flex`.
+Responsive styling is a very important part of mobile application development since screen sizes may change based on the orientation of the device. As a result `flex` or `flexbox` serves as a very important tools for making components responsive. Good news!! All components in React Native are flex-boxes. We do not have to explicitly set `display: flex`.
 
-By adding the `flex` property with the factor number, we distribute the avalable space by the factor provided. 
+By adding the `flex` property with the factor number, we distribute the available space by the factor provided. 
 
-Conside the example below. The height of each of the `View` is calculates by dividing the avaiable space by the sunm of the factors used i.e. `height / (1 + 1 + 1) * factor`.
+Consider the example below. The height of each of the `View` is calculates by dividing the available space by the sum of the factors used i.e. `height / (1 + 1 + 1) * factor`.
 
     export const styles = StyleSheet.create({
       layout: {

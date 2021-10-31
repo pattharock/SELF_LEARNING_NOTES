@@ -32,7 +32,7 @@ There are also differences in the functionality provided by each platform. Apple
 
 For most applications, cross platform tools like Expo & React-Native are a good choice.
 - Apps built with Expo or React Native can run on multiple platforms. That means faster development and less code to maintain while sharing most of the code.
-- It provides direct access to native functionality, allowing developers to make the app as performant as pure native apps.
+- It provides direct access to native functionality, allowing developers to make the app as performance as pure native apps.
 - Getting started with Expo and React Native only requires basic web development and basic native platform understanding.
 
 However, there are some areas where Cross Platform Tools like React Native don't perform quite well
