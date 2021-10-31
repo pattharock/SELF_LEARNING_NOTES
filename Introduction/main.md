@@ -63,7 +63,12 @@ We will be making use of the _expo-cli_ to manage our React Native Application.
 To install the expo cli, run the following command
 
     npm install -g expo-cli
-    
+
 ## Expo Mobile App
 
 While it is possible for us to test expo applications on android or iOS emulators on the device, we may alternatively use the expo app to test our applications on a real device, by simply installing the expo app on our device of choice. To do this, head over to the AppStore or Google Play Store and download the expo app. It's a free application.
+
+## Documentaion and Pre-requistes
+
+- [React Native Documentation](https://youtu.be/W6NZfCO5SIk)
+- [JavaScript Course](https://reactnative.dev/docs/getting-started)
