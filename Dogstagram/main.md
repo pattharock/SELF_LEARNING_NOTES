@@ -46,6 +46,10 @@ Thereafter, the app can be run on an Android/ios simulator, emulator, or even on
 3. Using the `useState()` hook from React, tie up all the custom input components to the state of the parent component i.e. `<App>`. Transform each of the components created into a controlled component by accordingly setting the value to `state` and calling the appropriate `setState()` in the `onChangeText` prop.
 
 4. BONUS: Try to implement validation for password mismatch from the confirm password. When true, a small message indicating `passwords do not match.` should be visible.
+
+The sample output of the application should roughly resemble the image below.
+
+![title](images/output.jpeg)
    
 
 This tutorial should help you get comfortable with the basics of mobile application development with `React Native`. Hope you enjoyed it :)
