@@ -7,7 +7,7 @@ export default function CustomTextInput({label, placeholder, value, callback, pa
       style ={
         {
           flex: 1, 
-          justifyContent: 'start', 
+          // justifyContent: 'start', 
         }
       }
     >
